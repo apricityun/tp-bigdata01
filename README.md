@@ -16,7 +16,7 @@
 - howair_erd.sql : DB ERD
 <br>
 
-> #### **Usage
+> #### **Usage**
 - (데이터 분석 완료 후 디비 저장 완료)
 - DB sql import
 - SpringBoot Run As  -> localhost:8083
