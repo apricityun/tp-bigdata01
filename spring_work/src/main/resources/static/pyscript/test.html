@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Matplotlib</title>
+<meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="./favicon.png">
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+<py-env> 
+- matplotlib 
+- pandas 
+</py-env>
+</head>
+<body>
+	<div id="plot"></div>
+	<py-script> 
+	import pandas as pd
+	data = pd.read_csv('data.csv', index_col=0, encoding='CP949', engine='python')
+	df1=pd.DataFrame(data)
+	print(df1) 
+	</py-script>
+	<py-script output="plot">
+
+
+
+
+	</py-script>
+</body>
+</html>
